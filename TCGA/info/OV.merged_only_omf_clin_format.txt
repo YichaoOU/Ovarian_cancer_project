@@ -1,0 +1,44 @@
+V1	V2	V3	V4
+admin.batch_number	409.34.0	409.34.0	409.34.0
+admin.bcr	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital
+admin.day_of_dcc_upload	21	21	21
+admin.disease_code	ov	ov	ov
+admin.file_uuid	41c29009-cbe0-48ca-a2e9-1b3a55281f89	fccd44df-1b99-4a73-a3e0-853f79b452f3	6a476add-668f-4873-a7f8-53151cc2fcab
+admin.month_of_dcc_upload	1	1	1
+admin.patient_withdrawal.withdrawn	false	false	false
+admin.project_code	tcga	tcga	tcga
+admin.year_of_dcc_upload	2016	2016	2016
+patient.additional_studies	NA	NA	NA
+patient.bcr_patient_barcode	tcga-3p-a9wa	tcga-59-a5pd	tcga-5x-aa5u
+patient.bcr_patient_uuid	e35b2813-427e-4e83-95f6-4f0281f42a59	7ebc776e-bde1-4563-adb1-8bd441872733	bc84c5c5-1785-4edd-b732-8987f862063e
+patient.omfs.omf.bcr_omf_barcode	tcga-3p-a9wa-o53354	tcga-59-a5pd-o39494	tcga-5x-aa5u-o55933
+patient.omfs.omf.bcr_omf_uuid	deb877c0-4565-444d-8ce9-3963674b5b2d	7104f3cd-82be-4ece-8cca-420d2c90b8f0	88b43944-dc82-441e-ac0c-e1e8987c8c9e
+patient.omfs.omf.day_of_form_completion	11	24	24
+patient.omfs.omf.days_to_other_malignancy_dx	4	0	-1
+patient.omfs.omf.drug_tx.administered_drug.drug_name	NA	NA	NA
+patient.omfs.omf.drug_tx.days_to_drug_therapy_start	NA	NA	NA
+patient.omfs.omf.drug_tx.drug_tx_extent	NA	NA	NA
+patient.omfs.omf.drug_tx.drug_tx_indicator	no	no	no
+patient.omfs.omf.malignancy_type	synchronous malignancy	synchronous malignancy	synchronous malignancy
+patient.omfs.omf.month_of_form_completion	12	1	11
+patient.omfs.omf.omf_staging.clinical_stage	stage iib	NA	stage ib
+patient.omfs.omf.omf_staging.pathologic_categories.pathologic_m	mx	mx	m0
+patient.omfs.omf.omf_staging.pathologic_categories.pathologic_n	n0	n0	nx
+patient.omfs.omf.omf_staging.pathologic_categories.pathologic_t	t2b	t1c	t1b
+patient.omfs.omf.omf_staging.pathologic_stage	stage ii	NA	stage ib
+patient.omfs.omf.omf_staging.system_version	2009	7th	2009
+patient.omfs.omf.other_malignancy_anatomic_site	uterus	ovary	ovary
+patient.omfs.omf.other_malignancy_anatomic_site_text	NA	NA	NA
+patient.omfs.omf.other_malignancy_histological_type	other, specify	other, specify	other, specify
+patient.omfs.omf.other_malignancy_histological_type_text	intraepithelial serous carcinoma	serous cystadenocarcinoma	papillary serous adenocarcinoma of ovary
+patient.omfs.omf.other_malignancy_laterality	NA	left	left
+patient.omfs.omf.radiation_tx.days_to_radiation_therapy_start	NA	NA	NA
+patient.omfs.omf.radiation_tx.rad_tx_to_site_of_primary_tumor	NA	NA	NA
+patient.omfs.omf.radiation_tx.radiation_tx_extent	NA	NA	NA
+patient.omfs.omf.radiation_tx.radiation_tx_indicator	no	no	no
+patient.omfs.omf.surgery.days_to_surgical_resection	54	0	-1
+patient.omfs.omf.surgery.surgery_indicator	yes	yes	yes
+patient.omfs.omf.surgery.surgery_type	hysterectomy	gross total resection	hysterectomy
+patient.omfs.omf.year_of_form_completion	2013	2013	2014
+patient.patient_id	a9wa	a5pd	aa5u
+patient.tissue_source_site	3p	59	5x
