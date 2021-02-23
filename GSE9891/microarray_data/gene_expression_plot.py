@@ -1,0 +1,17 @@
+library(beeswarm)
+df=read.table("AFF2.data",sep="\t",header=T)
+a=beeswarm(df[,2]~df[,1],data=df,method="center",spacing=0.7)
+new_df = data.frame(x=a$x,y=a$y,type=a$x.orig)
+library(ggplot2)
+library(plyr)
+motif_names=unique(new_df$type)
+colors = rainbow(length(motif_names))
+beeswarm.plot <- ggplot(new_df, aes(x, y))
+beeswarm.plot2 <- beeswarm.plot + geom_boxplot(aes(x, y,
+  group = type), outlier.shape = NA)+scale_x_discrete(
+limits=motif_names)
+beeswarm.plot3 <- beeswarm.plot2 + geom_point(aes(colour = type))
+beeswarm.plot3 = beeswarm.plot3+scale_colour_manual(values = colors)
+beeswarm.plot3=beeswarm.plot3+theme(axis.text.x = element_text(size = 9, angle = 0, hjust=0.5,vjust=-1))
+beeswarm.plot4 = beeswarm.plot3+geom_violin(aes(fill=type),alpha=0.2,linetype="blank")
+ggsave(file="AFF2-GSE9891.png")
